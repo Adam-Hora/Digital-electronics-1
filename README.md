@@ -8,7 +8,7 @@
 
 Nadpis 1. sloupce | Nadpis 2. sloupce
 -------------------|-------------------
-Položka 1. sloupce | _Položka 2. sloupce_
+__Položka 1. sloupce__ | _Položka 2. sloupce_
 ```vhdl
 if (tohle je kód)
 {
