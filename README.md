@@ -6,9 +6,9 @@
 
 [VUT](https://www.vutbr.cz)
 
-Nadpis 1. tabulky | Nadpis 2. tabulky
+Nadpis 1. sloupce | Nadpis 2. sloupce
 -------------------|-------------------
-Položka 1. tabulky | Položka 2. tabulky
+Položka 1. sloupce | _Položka 2. sloupce_
 ```vhdl
 if (tohle je kód)
 {
