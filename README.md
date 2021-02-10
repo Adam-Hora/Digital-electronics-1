@@ -9,7 +9,7 @@
 Nadpis 1. tabulky | Nadpis 2. tabulky
 -------------------|-------------------
 Položka 1. tabulky | Položka 2. tabulky
-```
+```vhdl
 if (tohle je kód)
 {
   return true
