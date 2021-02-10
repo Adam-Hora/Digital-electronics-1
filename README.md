@@ -5,11 +5,11 @@
 2. Druhá položka
 ⋅⋅1.první organizovaná podpolžka
 [VUT](https://www.vutbr.cz)
-Tabulka 1 | Tabulka 2
 --------- | ----------
 Položka 1. tabulky | Položka 2. tabulky
 ```
-if (tohle je kód){
+if (tohle je kód)
+{
   return true
 }
 ```
