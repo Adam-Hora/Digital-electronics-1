@@ -28,7 +28,7 @@ end architecture dataflow;
 
 https://www.edaplayground.com/x/CwhY
 
-## Ověření de distributivních zákonů
+## Ověření distributivních zákonů
 
 ### Zdrojový kód v edaplayground
 ```vhdl
