@@ -56,7 +56,7 @@ Větší SoP min = B<sub>1</sub>A&#862;<sub>1</sub>+B<sub>0</sub>A&#862;<sub>1</
 |           | **1 1**   | *0*     | *0*         | *0*       | *0*       |
 |           | **1 0**   | *0*     | *0*         | 1         | *0*       |
 
-Menší PoS min = (A<sub>0</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>0</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>1</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>1</sub>+A<sub>0</sub>+)&hairsp;&middot;(B&#862;<sub>0</sub>+B&#862;<sub>1</sub>)
+Menší PoS min = (A<sub>0</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>0</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>1</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;(B&#862;<sub>0</sub>+B&#862;<sub>1</sub>)
 
 ### Odkaz na edaplayground
 
