@@ -45,7 +45,7 @@ Menší PoS = (B<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&
 |           | **1 1**   | *1*     | *1*         | 0         | *1*       |
 |           | **1 0**   | *1*     | *1*         | 0         | 0         |
 
-Větší SoP min = B<sub>1</sub>A&#862;<sub>1</sub>+B<sub>0</sub>A&#862;<sub>1</sub>A&#862;<sub>0</sub>+A&#862;<sub>0</sub>B<sub>0</sub>B<sub>1</sub>
+Větší SoP min = B<sub>1</sub>A&#862;<sub>1</sub>+B<sub>0</sub>A&#862;<sub>1</sub>A&#862;<sub>0</sub>+B<sub>0</sub>B<sub>1</sub>A&#862;<sub>0</sub>
 
 ### *K-mapa pro funkci B je menší A*
 |           |           |         |  **A1,A0**  |           |           |
