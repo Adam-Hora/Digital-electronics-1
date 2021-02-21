@@ -1,6 +1,6 @@
 # 2 cvičení
 
-
+## Domácí příprava
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 0 | 0 0 | 0 | 1 | 0 |
@@ -20,12 +20,12 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-Equals<sub>SoP</sub> = B&#862;<sub>1</sub>B&#862;<sub>0</sub>A&#862;<sub>1</sub>A&#862;<sub>0</sub>+B&#862;<sub>1</sub>B<sub>0</sub>A&#862;<sub>1</sub>A<sub>0</sub>+B<sub>1</sub>B&#862;<sub>0</sub>A<sub>1</sub>A&#862;<sub>0</sub>+B<sub>1</sub>B<sub>0</sub>A<sub>1</sub>A<sub>0</sub>
+Rovná se SoP= B&#862;<sub>1</sub>B&#862;<sub>0</sub>A&#862;<sub>1</sub>A&#862;<sub>0</sub>+B&#862;<sub>1</sub>B<sub>0</sub>A&#862;<sub>1</sub>A<sub>0</sub>+B<sub>1</sub>B&#862;<sub>0</sub>A<sub>1</sub>A&#862;<sub>0</sub>+B<sub>1</sub>B<sub>0</sub>A<sub>1</sub>A<sub>0</sub>
 
-Less<sub>PoS</sub> = (B<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A&#862;<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A&#862;<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B<sub>0</sub>+A&#862;<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A&#862;<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A&#862;<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A&#862;<sub>1</sub>+A&#862;<sub>0</sub>)
+Menší PoS = (B<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A&#862;<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A&#862;<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B<sub>0</sub>+A&#862;<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A<sub>1</sub>+A&#862;<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A&#862;<sub>1</sub>+A<sub>0</sub>)&hairsp;&middot;&hairsp;(B&#862;<sub>1</sub>+B&#862;<sub>0</sub>+A&#862;<sub>1</sub>+A&#862;<sub>0</sub>)
 
-
-### *The K-map for A equals B function*
+## 2-bit komparátor
+### *K-mapa pro funkci A se rovná B*
 |           |           |         |  **A1,A0**  |           |           |
 | :-:       | :-:       | :-:     | :-:         | :-:       | :-:       | 
 |           |           | **0 0** | **0 1**     | **1 1**   | **1 0**   | 
@@ -36,7 +36,7 @@ Less<sub>PoS</sub> = (B<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&h
 
 
 
-### *The K-map for B graeter than A function*
+### *K-mapa pro funkci B je větší A*
 |           |           |         |  **A1,A0**  |           |           |
 | :-:       | :-:       | :-:     | :-:         | :-:       | :-:       | 
 |           |           | **0 0** | **0 1**     | **1 1**   | **1 0**   | 
@@ -45,7 +45,9 @@ Less<sub>PoS</sub> = (B<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&h
 |           | **1 1**   | *1*     | *1*         | 0         | *1*       |
 |           | **1 0**   | *1*     | *1*         | 0         | 0         |
 
-### *The K-map for B less than A function*
+Větší SoP min = B<sub>1</sub>A&#862;<sub>1</sub>+B<sub>0</sub>A&#862;<sub>1</sub>A&#862;<sub>0</sub>+A&#862;<sub>0</sub>B<sub>0</sub>B<sub>1</sub>
+
+### *K-mapa pro funkci B je menší A*
 |           |           |         |  **A1,A0**  |           |           |
 | :-:       | :-:       | :-:     | :-:         | :-:       | :-:       | 
 |           |           | **0 0** | **0 1**     | **1 1**   | **1 0**   | 
@@ -54,4 +56,9 @@ Less<sub>PoS</sub> = (B<sub>1</sub>+B<sub>0</sub>+A<sub>1</sub>+A<sub>0</sub>)&h
 |           | **1 1**   | *0*     | *0*         | *0*       | *0*       |
 |           | **1 0**   | *0*     | *0*         | 1         | *0*       |
 
-Greater SoP min = B<sub>1</sub>A&#862;<sub>1</sub>+B<sub>0</sub>A&#862;<sub>1</sub>A&#862;<sub>0</sub>+A&#862;<sub>0</sub>B<sub>0</sub>B<sub>1</sub>
+Menší PoS min = (A<sub>0</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>0</sub>+A<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>1</sub>+A<sub>1</sub>)&hairsp;&middot;(A<sub>0</sub>+B&#862;<sub>1</sub>)&hairsp;&middot;(B&#862;<sub>0</sub>+B&#862;<sub>1</sub>)&hairsp;&middot;
+
+### Odkaz na edaplayground
+
+https://www.edaplayground.com/x/QEwb
+
