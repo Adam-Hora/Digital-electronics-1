@@ -65,3 +65,10 @@ Time: 1 us  Iteration: 0  Process: /tb_mux_2bit_4to1/p_stimulus  File: C:/Docume
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_mux_2bit_4to1_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1002.570 ; gain = 0.000
+save_wave_config {C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/tb_mux_2bit_4to1_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/tb_mux_2bit_4to1_behav.wcfg
+set_property xsim.view C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/tb_mux_2bit_4to1_behav.wcfg [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 28 13:17:51 2021...

@@ -14,3 +14,7 @@ open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bi
 update_compile_order -fileset sources_1
 launch_simulation
 source tb_mux_2bit_4to1.tcl
+save_wave_config {C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/tb_mux_2bit_4to1_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/tb_mux_2bit_4to1_behav.wcfg
+set_property xsim.view C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/tb_mux_2bit_4to1_behav.wcfg [get_filesets sim_1]
+close_sim
