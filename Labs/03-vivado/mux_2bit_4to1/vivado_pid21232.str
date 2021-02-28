@@ -1,0 +1,104 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 21232
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Feb 28 13:09:25 CET 2021
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+Scale size: 19
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/APPZ/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/APPZ/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Adam
+User home directory: C:/Users/Adam
+User working directory: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1
+User country: 	CZ
+User language: 	cs
+User locale: 	cs_CZ
+
+RDI_BASEROOT: C:/APPZ/Vivado
+HDI_APPROOT: C:/APPZ/Vivado/2020.2
+RDI_DATADIR: C:/APPZ/Vivado/2020.2/data
+RDI_BINDIR: C:/APPZ/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Adam/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/APPZ/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/vivado.log
+Vivado journal file location: 	C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/vivado.jou
+Engine tmp dir: 	C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/.Xil/Vivado-21232-LAPTOP-453B9GGM
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/APPZ/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/APPZ/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/APPZ/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/APPZ/Vivado/2020.2
+XILINX_VIVADO: C:/APPZ/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/APPZ/Vivado/2020.2
+
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,017 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Documents\Adam-Hora\Digital-electronics-1\Labs\03-vivado\mux_2bit_4to1\mux_2bit_4to1.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/mux_2bit_4to1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/03-vivado/mux_2bit_4to1/mux_2bit_4to1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 96 MB (+98397kb) [00:00:07]
+// [Engine Memory]: 1,017 MB (+914921kb) [00:00:07]
+// [GUI Memory]: 117 MB (+16427kb) [00:00:07]
+// [GUI Memory]: 124 MB (+1204kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  2424 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Vivado/2020.2/data/ip'. 
