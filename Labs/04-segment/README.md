@@ -1,4 +1,30 @@
-| Hex | Inputs | A | B | C | D | E | F | G |
+# 04-segment
+## Preparation tasks
+
+### Table with connection of 7-segment displays on Nexys A7 board
+
+| **Component** | **Resistor [Ω]** | **PIN** | 
+| :-: | :-: | :-: |
+| CA | 100 | T10 |
+| CB | 100 | R10 |
+| CC | 100 | K16 | 
+| CD | 100 | K13 | 
+| CE | 100 | P15 |
+| CF | 100 | T11 | 
+| CG | 100 | L18 | 
+| DP | 100 | H15 | 
+| AN0 | 2K2 | J17 | 
+| AN1 | 2K2 | J18 | 
+| AN2 | 2K2 | T9 | 
+| AN3 | 2K2 | J14 | 
+| AN4 | 2K2 | P14 | 
+| AN5 | 2K2 | T14 | 
+| AN6 | 2K2 | K2 | 
+| AN7 | 2K2 | U13 | 
+
+### Decoder truth table for common anode 7-segment display.
+
+| **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 1 | 0001 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
@@ -16,3 +42,101 @@
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+## Seven-segment display decoder.
+
+### Listing of VHDL architecture from source file
+
+```vhdl
+architecture Behavioral of hex_7seg is
+begin
+--------------------------------------------------------------------
+    -- p_7seg_decoder:
+    -- A combinational process for 7-segment display decoder. 
+    -- Any time "hex_i" is changed, the process is "executed".
+    -- Output pin seg_o(6) corresponds to segment A, seg_o(5) to B, etc.
+    --------------------------------------------------------------------
+    p_7seg_decoder : process(hex_i)
+    begin
+        case hex_i is
+            when "0000" =>
+                seg_o <= "0000001";     -- 0
+            when "0001" =>
+                seg_o <= "1001111";     -- 1
+            when "0010" =>
+                seg_o <= "0010010";     --2
+            when "0011" =>
+                seg_o <= "0000110";     --3
+            when "0100" =>
+                seg_o <= "1001100";     --4
+            when "0101" =>
+                seg_o <= "0100100";     --5
+            when "0110" =>
+                seg_o <= "0100000";     --6
+            when "0111" =>
+                seg_o <= "0001111";     --7
+            when "1000" =>
+                seg_o <= "0000000";     --8
+            when "1001" =>
+                seg_o <= "0000100";     --9
+            when "1010" =>
+                seg_o <= "0001000";     --A
+            when "1011" =>
+                seg_o <= "1100000";     --b
+            when "1100" =>
+                seg_o <= "0110001";     --C
+            when "1101" =>
+                seg_o <= "1000010";     --d
+            when "1110" =>
+                seg_o <= "0110000";     -- E
+            when others =>
+                seg_o <= "0111000";     -- F
+        end case;
+    end process p_7seg_decoder;
+
+end Behavioral;
+```
+### Listing of VHDL stimulus process from testbench file
+
+```vhdl
+p_stimulus : process
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started" severity note;
+        s_hex <= "0000"; wait for 10ns;
+        
+        s_hex <= "0001"; wait for 10ns;
+        
+        s_hex <= "0010"; wait for 10ns;
+        
+        s_hex <= "0011"; wait for 10ns;
+        
+        s_hex <= "0100"; wait for 10ns;
+        
+        s_hex <= "0101"; wait for 10ns;
+        
+        s_hex <= "0110"; wait for 10ns;
+        
+        s_hex <= "0111"; wait for 10ns;
+        
+        s_hex <= "1000"; wait for 10ns;
+        
+        s_hex <= "1001"; wait for 10ns;
+        
+        s_hex <= "1010"; wait for 10ns;
+        
+        s_hex <= "1011"; wait for 10ns;
+        
+        s_hex <= "1100"; wait for 10ns;
+        
+        s_hex <= "1101"; wait for 10ns;
+        
+        s_hex <= "1110"; wait for 10ns;
+        
+        s_hex <= "1111"; wait for 10ns;
+        
+    -- Report a note at the end of stimulus process
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+```
