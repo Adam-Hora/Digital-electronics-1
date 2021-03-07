@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Mar  7 10:19:44 2021
+# Process ID: 17708
+# Current directory: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/04-segment/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18384 C:\Documents\Adam-Hora\Digital-electronics-1\Labs\04-segment\display\display.xpr
+# Log file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/04-segment/display/vivado.log
+# Journal file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/04-segment/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/04-segment/display/display.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Documents/Adam-Hora/Digital-electronics-1/Labs/04-segment/display/tb_top_behav.wcfg
+source tb_top.tcl
+current_wave_config {tb_top_behav.wcfg}
+add_wave {{/tb_top/uut_top/hex2seg}} 
+close_sim
