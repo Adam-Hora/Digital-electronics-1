@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 15 18:20:22 2021
+# Process ID: 21568
+# Current directory: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6872 C:\Documents\Adam-Hora\Digital-electronics-1\Labs\05-counter\counter\counter.xpr
+# Log file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter/vivado.log
+# Journal file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter/counter.xpr
+update_compile_order -fileset sources_1
+
+launch_simulation
+source tb_cnt_up_down.tcl
+save_wave_config {C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter/tb_cnt_up_down_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter/tb_cnt_up_down_behav.wcfg
+set_property xsim.view C:/Documents/Adam-Hora/Digital-electronics-1/Labs/05-counter/counter/tb_cnt_up_down_behav.wcfg [get_filesets sim_1]
+close_sim
