@@ -201,4 +201,4 @@ end Behavioral;
 
 ### Sketch of the driver schematic
 
-![8digit](images/8digit.png)
+![8digit](images/8digit.jpg)
