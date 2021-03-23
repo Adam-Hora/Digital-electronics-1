@@ -176,3 +176,5 @@ p_cnt_up_down : process(clk)
     AN <= b"1111_1110";
 ```
 ### Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments on your own
+
+![Top](images/top.jpg)
