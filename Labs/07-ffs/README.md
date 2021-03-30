@@ -141,8 +141,8 @@ end process p_d_latch;
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-    ```
-    ### Screenshot with simulated time waveforms
+```
+### Screenshot with simulated time waveforms
 
 ![waveforms](images/dlatch.png)
 
@@ -241,7 +241,7 @@ end process p_d_ff_arst;
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-    ```
+```
 ### Screenshot with simulated time waveforms 
 
 ![waveforms](images/ffarst.png)
@@ -376,7 +376,7 @@ end process p_d_ff_rst;
 
 ### 3.3 jk_ff_rst
 
-* ### VHDL code listing of the processes p_jk_ff_rst
+### VHDL code listing of the processes p_jk_ff_rst
 
 ```vhdl
 p_jk_ff_rst : process (clk)
@@ -489,7 +489,7 @@ end process p_jk_ff_rst;
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
-    ```
+```
 ### Screenshot with simulated time waveforms
 
 ![waveforms](images/jkffrst.png)
