@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 30 18:14:07 2021
+# Process ID: 15264
+# Current directory: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/07-ffs/flip_flops
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28668 C:\Documents\Adam-Hora\Digital-electronics-1\Labs\07-ffs\flip_flops\flip_flops.xpr
+# Log file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/07-ffs/flip_flops/vivado.log
+# Journal file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/07-ffs/flip_flops\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/admin/Documents/Digital-electronics-1/Labs/07-ffs/flip_flops' since last save.
+WARNING: [filemgmt 56-2] Board Part Repository Path: Could not find the directory 'C:/Documents/AppData/Roaming/Xilinx/Vivado/2020.2/xhub/board_store/xilinx_board_store', nor could it be found using path 'C:/Users/admin/AppData/Roaming/Xilinx/Vivado/2020.2/xhub/board_store/xilinx_board_store'.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Documents/Adam-Hora/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.gen/sources_1', nor could it be found using path 'C:/Users/admin/Documents/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.949 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 30 18:14:42 2021...
