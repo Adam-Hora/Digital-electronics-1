@@ -23,7 +23,7 @@
 
 ### State diagram:
 
-![picture](images/schema1.jpg)
+![picture](images/scheme1.jpg)
 
 ### Listing of VHDL code of sequential process p_traffic_fsm with syntax highlighting
 
@@ -173,7 +173,7 @@ end process p_output_fsm;
 
 ### State diagram
 
-![schema2](images/schema2.png)
+![schema2](images/scheme2.jpg)
 
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm with syntax highlighting
 
