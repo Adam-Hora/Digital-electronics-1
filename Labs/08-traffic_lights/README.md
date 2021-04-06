@@ -19,7 +19,7 @@
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
 
-## 2.Traffic light controller
+## 2. Traffic light controller
 
 ### State diagram:
 
@@ -160,7 +160,7 @@ end process p_output_fsm;
 ![time waveforms](images/wave1.png)
 ![time waveforms](images/wave2.png)
 
-## 3.Smart controller
+## 3. Smart controller
 
 ### State table:
 
