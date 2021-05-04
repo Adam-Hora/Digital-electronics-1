@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr  6 16:08:54 2021
+# Process ID: 20228
+# Current directory: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10088 C:\Documents\Adam-Hora\Digital-electronics-1\Labs\08-traffic_lights\traffic\traffic.xpr
+# Log file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/vivado.log
+# Journal file: C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/traffic.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/tb_tlc_behav.wcfg
+source tb_tlc.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_stlc [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/tb_tlc_behav.wcfg
+source tb_stlc.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top stlc [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/tb_tlc_behav.wcfg
+source tb_stlc.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/tb_tlc_behav.wcfg
+source top.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_tlc [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Documents/Adam-Hora/Digital-electronics-1/Labs/08-traffic_lights/traffic/tb_tlc_behav.wcfg
+source tb_tlc.tcl
+close_sim
